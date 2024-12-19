@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+
+# Logs
+logs/
+*.log
+
+# Node
+node_modules/
+
+# Databases
+*.sqlite
+*.db
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+# Build Files
+dist/
+build/
+
+# Temp Files
+*.tmp
+*.bak
