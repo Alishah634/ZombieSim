@@ -11,7 +11,7 @@ const initializeSimulation = async (req, res) => {
         await humanModel.clearHumans();
         await resourceModel.clearResources();   
         let num_humans = 10;
-        let num_zombies = num_humans;
+        let num_zombies = num_humans/2;
         let num_resources = num_humans;
 
         let grid_size = 10;
